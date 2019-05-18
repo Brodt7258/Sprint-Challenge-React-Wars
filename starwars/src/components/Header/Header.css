@@ -1,0 +1,11 @@
+.app-heading {
+  width: 100%;
+  padding: 1em;
+  background-color: orangered;
+}
+
+.app-heading h1 {
+  margin: 0;
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+}
