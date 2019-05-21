@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import ClassList from './components/ContentList/ContentList';
+import Header from './components/Header/Header';
+
 class App extends Component {
   constructor() {
     super();
@@ -30,9 +33,13 @@ class App extends Component {
   };
 
   render() {
+
+    console.log(this.state);
+
     return (
       <div className="App">
-        <h1 className="Header">React Wars</h1>
+        <Header />
+        <ClassList characters={this.state.starwarsChars} />
       </div>
     );
   }

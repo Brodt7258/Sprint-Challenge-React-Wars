@@ -1,0 +1,35 @@
+li.char-item {
+  list-style: none;
+  background-color: #dedede;
+  margin-bottom: 1.5em;
+  min-width: 40%;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.char-item h2 {
+  margin: 0 3em;
+  background-color: orangered;
+  color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.char-details {
+  list-style: none;
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.char-details li {
+  font-size: 1.2em;
+  margin-bottom: 0.75em;
+}
+
+.char-details li:last-child {
+  margin: 0;
+}
